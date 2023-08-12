@@ -1,0 +1,195 @@
+.employes {
+  margin-top: 120px;
+  h2 {
+    color: var(--main-font, #363738);
+    font-family: "Exo 2";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    margin-bottom: 72px;
+  }
+  .employes_card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 30px;
+    .employes-info {
+      padding: 32px 172px 46px 64px;
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      border-radius: 10px;
+      background: var(--white, #fff);
+      box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+      .green {
+        display: none;
+      }
+      h5 {
+        color: var(--main-font, #363738);
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 12px;
+      }
+      p {
+        color: var(--additional-font, #6b6b6c);
+        font-family: " PT Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 51px;
+      }
+      .links {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .employes {
+    margin-top: 120px;
+    h2 {
+      color: var(--main-font, #363738);
+      font-family: "Exo 2";
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 125%;
+      margin-bottom: 72px;
+    }
+    .employes_card {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: 24px;
+      grid-column-gap: 30px;
+      .employes-info:nth-child(5) {
+        display: none;
+      }
+      .employes-info:nth-child(6) {
+        display: none;
+      }
+      .employes-info {
+        position: relative;
+        padding: 32px 105px 32px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        border-radius: 10px;
+        background: var(--white, #fff);
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+        .green {
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+          left: 0;
+          top: 0;
+          width: 30px;
+          height: 100%;
+          position: absolute;
+          background: #0b7572;
+          display: block;
+        }
+        h5 {
+          color: var(--main-font, #363738);
+          font-family: "Exo 2";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          margin-bottom: 12px;
+        }
+        p {
+          color: var(--additional-font, #6b6b6c);
+          font-family: " PT Sans";
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%;
+          margin-bottom: 51px;
+        }
+        .links {
+          display: flex;
+          gap: 20px;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 576px) {
+  .employes {
+    margin-top: 120px;
+    h2 {
+      color: var(--main-font, #363738);
+      font-family: "Exo 2";
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 125%;
+      margin-bottom: 72px;
+    }
+    .employes_card {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-row-gap: 24px;
+      grid-column-gap: 30px;
+      .employes-info:nth-child(5) {
+        display: none;
+      }
+      .employes-info:nth-child(6) {
+        display: none;
+      }
+      .employes-info {
+        position: relative;
+        padding: 32px 105px 32px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        border-radius: 10px;
+        background: var(--white, #fff);
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+        .green {
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+          left: 0;
+          top: 0;
+          width: 30px;
+          height: 100%;
+          position: absolute;
+          background: #0b7572;
+          display: block;
+        }
+        h5 {
+          color: var(--main-font, #363738);
+          font-family: "Exo 2";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          margin-bottom: 12px;
+        }
+        p {
+          color: var(--additional-font, #6b6b6c);
+          font-family: " PT Sans";
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%;
+          margin-bottom: 51px;
+        }
+        .links {
+          display: flex;
+          gap: 20px;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

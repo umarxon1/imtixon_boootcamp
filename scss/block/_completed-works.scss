@@ -1,0 +1,203 @@
+.completed_works {
+  margin-top: 122px;
+  h2 {
+    color: var(--main-font, #363738);
+    font-family: "Exo 2";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    margin-bottom: 32px;
+  }
+  p {
+    color: var(--additional-font, #6b6b6c);
+    max-width: 500px;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 56px;
+  }
+  .works_wrapper {
+    display: flex;
+    justify-content: space-between;
+    .works_card {
+      border-radius: 10px;
+      background: var(--white, #fff);
+      box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+      max-width: 393px;
+      .title {
+        margin-left: 32px;
+      }
+      h5 {
+        color: var(--main-font, #363738);
+        font-family: Exo 2;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 135%;
+        margin-bottom: 16px;
+      }
+      p {
+        max-width: 291px;
+        color: var(--additional-font, #6b6b6c);
+        font-family: PT Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin: 0;
+      }
+      .rubl {
+        color: var(--main-font, #363738);
+        font-family: Exo 2;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 135%;
+        width: 85px;
+        margin-top: 32px;
+        padding-bottom: 22px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1345px) {
+  .completed_works {
+    .works_wrapper {
+      justify-content: space-around;
+      .works_card {
+        img {
+          max-width: 320px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .completed_works {
+    .works_wrapper {
+      justify-content: space-around;
+      .works_card {
+        img {
+          max-width: 290px;
+        }
+        .rubl1 {
+          max-width: 220px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .completed_works {
+    h2 {
+      text-align: center;
+    }
+    .ppp {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    .works_wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      grid-row-gap: 20px;
+      .works_card {
+        img {
+          max-width: 100%;
+        }
+        .rubl1 {
+          max-width: 400px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 844px) {
+  .completed_works {
+    h2 {
+      text-align: center;
+    }
+    .ppp {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    .works_wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      .works_card {
+        img {
+          max-width: 100%;
+        }
+        .rubl1 {
+          max-width: 400px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .completed_works {
+    h2 {
+      text-align: left;
+    }
+    .ppp {
+      display: flex;
+      justify-content: center;
+      text-align: left;
+    }
+    .works_wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      .works_card:last-child {
+        display: none;
+      }
+      .works_card {
+        max-width: 100% !important;
+        img {
+          width: 690px;
+          height: 247px;
+        }
+        .rubl1 {
+          max-width: 400px;
+        }
+        h5 {
+          max-width: 327px;
+        }
+        p {
+          max-width: 690px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .completed_works {
+    h2 {
+      text-align: left;
+    }
+    .ppp {
+      display: flex;
+      justify-content: center;
+      text-align: left;
+    }
+    .works_wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      .works_card {
+        max-width: 100% !important;
+      }
+    }
+  }
+}

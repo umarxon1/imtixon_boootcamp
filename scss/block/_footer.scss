@@ -1,0 +1,81 @@
+footer {
+  padding: 80px 0px 23px 0px;
+  p {
+    color: #fff;
+    text-align: center;
+    font-family: " Exo 2";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+    margin-top: 80px;
+  }
+  .footer_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-family: "Exo 2";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: 2.08px;
+        text-transform: capitalize;
+      }
+    }
+    .footer_right {
+      margin-bottom: 32px;
+    }
+    p {
+      margin-bottom: 39px;
+
+      color: #fff;
+      font-family: " Exo 2";
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 150%;
+      text-transform: uppercase;
+    }
+    button {
+      color: #fff;
+      font-family: " PT Sans ";
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 150%;
+      text-transform: uppercase;
+      background-color: #ff9619;
+      border: none;
+      padding: 8px 11px;
+      svg {
+        padding-left: 10px;
+      }
+    }
+    button:hover {
+      background-color: white;
+      color: #000;
+      svg path {
+        fill: #000;
+      }
+    }
+  }
+  background: #0b7572;
+  margin-top: 166px;
+}
+@media only screen and (max-width) {
+  footer {
+    .footer_wrapper {
+      display: grid;
+      grid-template-rows: repeat(1, 1fr);
+    }
+  }
+}

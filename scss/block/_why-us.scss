@@ -1,0 +1,113 @@
+.Why-us {
+  margin-top: 100px;
+  .Why-us_wrapper {
+    .why-us-img {
+      max-width: 100%;
+    }
+    display: flex;
+    align-items: start;
+    gap: 40px;
+    h5 {
+      color: var(--main-font, #363738);
+      font-family: " Exo 2";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 135%;
+    }
+    p {
+      color: var(--additional-font, #6b6b6c);
+      font-family: "PT Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      max-width: 291px;
+    }
+  }
+  .Why-us-2 {
+    margin-top: 73px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 64px 150px;
+    justify-items: center;
+    margin-bottom: 122px;
+  }
+}
+@media only screen and (max-width: 1170px) {
+  .Why-us {
+    .why-us-wrapper {
+      .why-us-img {
+        max-width: 1090px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .Why-us {
+    .why-us-wrapper {
+      margin: 0 auto;
+      .why-us-img {
+        max-width: 1000px !important;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Why-us {
+    .why-us-wrapper {
+      padding: 0;
+      margin: 0 auto !important;
+      .img-truck {
+        display: flex;
+        justify-content: center;
+        .why-us-img {
+          max-width: 800px !important;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 990px) {
+  .Why-us {
+    .why-us-wrapper {
+      margin-left: 50px;
+      .why-us-img {
+        max-width: 750px;
+      }
+      .Why-us-2 {
+        max-width: 950px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 890px) {
+  .Why-us {
+    .why-us-wrapper {
+      .why-us-img {
+        max-width: 850px;
+      }
+      .Why-us-2 {
+        max-width: 850px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .Why-us {
+    .Why-us-2 {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .why-us-wrapper {
+      padding: 0;
+      margin: 0 auto !important;
+      .img-truck {
+        display: flex;
+        justify-content: center;
+        .why-us-img {
+          max-width: 576px !important;
+        }
+      }
+    }
+  }
+}
